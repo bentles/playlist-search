@@ -1,0 +1,16 @@
+{
+  "name": "Youtube Playlist Search",
+  "description": "Add a search playlist button to youtube",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "page_action": {},  
+    "content_scripts": [
+    {
+	"matches": ["*://*.youtube.com/*"],
+	"js": ["jquery-2.1.1.min.js", "background.js"]
+    }
+  ],
+  "manifest_version": 2
+}
