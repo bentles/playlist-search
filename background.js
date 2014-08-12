@@ -16,8 +16,11 @@ $(document).ready(function(){
 
     function plSearch()
     {
-	var search = encodeURIComponent($("#masthead-search-term").val());
-	search = "results?search_query="+ search +"&filters=playlist";
-	window.location.replace(search);
+	var search = $.trim(encodeURIComponent($("#masthead-search-term").val()));
+	if (search != "")
+	{
+	    search = "results?search_query="+ search +"&filters=playlist";
+	    window.location.replace(search);
+	}
     }
 });
