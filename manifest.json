@@ -1,7 +1,7 @@
 {
   "name": "Playlist Search for YouTube™",
-  "description": "Added a button to search for playlist on YouTube™",
-  "version": "0.0.0.3",
+  "description": "Added a button to search for playlists on YouTube™",
+  "version": "0.0.0.4",
   "page_action": {},  
     "content_scripts": [
     {
